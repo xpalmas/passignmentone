@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-image: url(/src/images/banner1.png);
+    background-image: url(./src/images/banner1.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 1600px;
