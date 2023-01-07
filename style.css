@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url(/src/images/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    text-align: right;
+    top: 277px;
+    right: 486px;
+    
+}
+
+.header-text h1 {
+    margin-bottom: 20px;
+}
+
+.header-text p {
+    margin-bottom: 18px;
+}
+
+.header-text button {
+    width: 160px;
+    height: 64px;
+    background-color: #F15B22;
+    color: #ffff;
+    font-weight: 700;
+}
+
+.failures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.failures-image img {
+    height: 600px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.failures-text {
+    height: 416px;
+    width: 400px;
+    margin-right: 200px;
+    margin-top: 300px;
+    text-align: left;
+}
+
+.failures-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.failures-text ul {
+    list-style-image: url('./src/icons/Vector.png');
+}
+
+.failures-text ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    width: 1600px;
+    height: 577px;
+    background-color: black;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 400px;
+}
+
+.footer-text {
+    height: 317px;
+    width: 485px;
+    color: #fff;
+}
+
+.footer-text p {
+    margin: 10px;
+}
+
+.newsletter {
+    color: white;
+    width: 325px;
+    height: 204px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.newsletter input {
+    margin-bottom: 8px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #fff;
+    background-color: black;
+}
+
+.newsletter button {
+    height: 40px;
+    width: 100px;
+    background-color: #fff;
+    color: #F15B22;
+    border-radius: 5px;
+}
+
+.newsletter h3 {
+    margin-bottom: 10px;
+}
+
+.plan {
+    width: 1600px;
+    height: 808px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.my-plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 190px;
+}
+
+.plan-category {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.plan-category img {
+    margin-bottom: 20px;
+}
+
+.plan-category strong {
+    margin-bottom: 10px;
+}
+
+.planSection-banner {
+    position: relative;
+    text-align: left;
+    margin-right: 190px;
+    margin-top: 100px;
+}
+
+.banner-text-btn {
+    position: absolute;
+    bottom: 100px;
+    left: 16px;
+}
+
+.banner-text-btn p {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.banner-text-btn button {
+    width: 140px;
+    height: 50px;
+    background-color: #fff;
+    color: #F15B22;
+    font-weight: 700;
+    border: none;
+}
+
+.gradient {
+    height: 301px;
+    width: 1140px;
+    position: absolute;
+    background-image: linear-gradient(to right, orange , white);
+    bottom: 4px;
+    opacity: 50%;
+}
